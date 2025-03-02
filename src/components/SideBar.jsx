@@ -1,11 +1,10 @@
 import {
   LayoutDashboard,
-  ContactRound,
   SquareUserRound,
   Menu,
   Settings,
   ShoppingBag,
-  DollarSign,
+  TrendingUp,
 } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
@@ -25,16 +24,10 @@ const SIDEBAR_ITEMS = [
     path: "/products",
   },
   {
-    name: "Customers",
-    icon: ContactRound,
-    color: "#a95ef2",
-    path: "/customers",
-  },
-  {
-    name: "Sales",
-    icon: DollarSign,
+    name: "Analitics",
+    icon: TrendingUp,
     color: "#78f564",
-    path: "/sales",
+    path: "/analitics",
   },
   {
     name: "Profile",

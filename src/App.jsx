@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 
 import OverviewPage from "./pages/OverviewPage.jsx";
 import ProductsPage from "./pages/ProductsPage.jsx";
+import AnaliticsPage from "./pages/AnaliticsPage.jsx";
 import EmptyPage from "./pages/EmptyPage.jsx";
 
 import SideBar from "./components/SideBar.jsx";
@@ -18,6 +19,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<OverviewPage />} />
         <Route path="/products" element={<ProductsPage />} />
+        <Route path="/analitics" element={<AnaliticsPage />} />
         <Route path="/empty" element={<EmptyPage />} />
       </Routes>
     </div>
