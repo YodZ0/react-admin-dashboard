@@ -7,6 +7,7 @@ import OverviewCard from "../components/common/OverviewCard.jsx";
 import RevenueChart from "../components/analitics/RevenueChart.jsx";
 import CustomerSegmentation from "../components/analitics/CustomerSegmentation.jsx";
 import AnaliticsInsights from "../components/analitics/AnaliticsInsights.jsx";
+import UsersActivity from "../components/analitics/UsersActivity.jsx";
 
 const OVERVIEW_DATA = [
   {
@@ -58,6 +59,7 @@ export default function AnaliticsPage() {
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-8">
           <RevenueChart />
           <CustomerSegmentation />
+          <UsersActivity />
           <AnaliticsInsights />
         </div>
       </main>
