@@ -2,7 +2,6 @@ import {
   LayoutDashboard,
   SquareUserRound,
   Menu,
-  Settings,
   ShoppingBag,
   TrendingUp,
 } from "lucide-react";
@@ -34,12 +33,6 @@ const SIDEBAR_ITEMS = [
     icon: SquareUserRound,
     color: "#f7f563",
     path: "/profile",
-  },
-  {
-    name: "Settings",
-    icon: Settings,
-    color: "#b2b0b5",
-    path: "/settings",
   },
 ];
 

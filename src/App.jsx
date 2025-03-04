@@ -4,7 +4,6 @@ import OverviewPage from "./pages/OverviewPage.jsx";
 import ProductsPage from "./pages/ProductsPage.jsx";
 import AnaliticsPage from "./pages/AnaliticsPage.jsx";
 import ProfilePage from "./pages/ProfilePage.jsx";
-import EmptyPage from "./pages/EmptyPage.jsx";
 
 import SideBar from "./components/SideBar.jsx";
 
@@ -22,7 +21,6 @@ export default function App() {
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/analitics" element={<AnaliticsPage />} />
         <Route path="/profile" element={<ProfilePage />} />
-        <Route path="/empty" element={<EmptyPage />} />
       </Routes>
     </div>
   );
